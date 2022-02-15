@@ -1,0 +1,23 @@
+C:\Users\EDita\source\repos\ShopOnline\Shop.DAL.RepoSQL\bin\Debug\net6.0\Shop.DAL.RepoSQL.deps.json
+C:\Users\EDita\source\repos\ShopOnline\Shop.DAL.RepoSQL\bin\Debug\net6.0\Shop.DAL.RepoSQL.dll
+C:\Users\EDita\source\repos\ShopOnline\Shop.DAL.RepoSQL\bin\Debug\net6.0\ref\Shop.DAL.RepoSQL.dll
+C:\Users\EDita\source\repos\ShopOnline\Shop.DAL.RepoSQL\bin\Debug\net6.0\Shop.DAL.RepoSQL.pdb
+C:\Users\EDita\source\repos\ShopOnline\Shop.DAL.RepoSQL\obj\Debug\net6.0\Shop.DAL.RepoSQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EDita\source\repos\ShopOnline\Shop.DAL.RepoSQL\obj\Debug\net6.0\Shop.DAL.RepoSQL.AssemblyInfoInputs.cache
+C:\Users\EDita\source\repos\ShopOnline\Shop.DAL.RepoSQL\obj\Debug\net6.0\Shop.DAL.RepoSQL.AssemblyInfo.cs
+C:\Users\EDita\source\repos\ShopOnline\Shop.DAL.RepoSQL\obj\Debug\net6.0\Shop.DAL.RepoSQL.csproj.CoreCompileInputs.cache
+C:\Users\EDita\source\repos\ShopOnline\Shop.DAL.RepoSQL\obj\Debug\net6.0\Shop.DAL.RepoSQL.dll
+C:\Users\EDita\source\repos\ShopOnline\Shop.DAL.RepoSQL\obj\Debug\net6.0\ref\Shop.DAL.RepoSQL.dll
+C:\Users\EDita\source\repos\ShopOnline\Shop.DAL.RepoSQL\obj\Debug\net6.0\Shop.DAL.RepoSQL.pdb
+C:\Users\EDita\source\repos\ShopOnline-new arch branch\ShopOnline\src\DAL\Shop.DAL.RepoSQL\bin\Debug\net6.0\Shop.DAL.RepoSQL.deps.json
+C:\Users\EDita\source\repos\ShopOnline-new arch branch\ShopOnline\src\DAL\Shop.DAL.RepoSQL\bin\Debug\net6.0\Shop.DAL.RepoSQL.dll
+C:\Users\EDita\source\repos\ShopOnline-new arch branch\ShopOnline\src\DAL\Shop.DAL.RepoSQL\bin\Debug\net6.0\ref\Shop.DAL.RepoSQL.dll
+C:\Users\EDita\source\repos\ShopOnline-new arch branch\ShopOnline\src\DAL\Shop.DAL.RepoSQL\bin\Debug\net6.0\Shop.DAL.RepoSQL.pdb
+C:\Users\EDita\source\repos\ShopOnline-new arch branch\ShopOnline\src\DAL\Shop.DAL.RepoSQL\obj\Debug\net6.0\Shop.DAL.RepoSQL.csproj.AssemblyReference.cache
+C:\Users\EDita\source\repos\ShopOnline-new arch branch\ShopOnline\src\DAL\Shop.DAL.RepoSQL\obj\Debug\net6.0\Shop.DAL.RepoSQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EDita\source\repos\ShopOnline-new arch branch\ShopOnline\src\DAL\Shop.DAL.RepoSQL\obj\Debug\net6.0\Shop.DAL.RepoSQL.AssemblyInfoInputs.cache
+C:\Users\EDita\source\repos\ShopOnline-new arch branch\ShopOnline\src\DAL\Shop.DAL.RepoSQL\obj\Debug\net6.0\Shop.DAL.RepoSQL.AssemblyInfo.cs
+C:\Users\EDita\source\repos\ShopOnline-new arch branch\ShopOnline\src\DAL\Shop.DAL.RepoSQL\obj\Debug\net6.0\Shop.DAL.RepoSQL.csproj.CoreCompileInputs.cache
+C:\Users\EDita\source\repos\ShopOnline-new arch branch\ShopOnline\src\DAL\Shop.DAL.RepoSQL\obj\Debug\net6.0\Shop.DAL.RepoSQL.dll
+C:\Users\EDita\source\repos\ShopOnline-new arch branch\ShopOnline\src\DAL\Shop.DAL.RepoSQL\obj\Debug\net6.0\ref\Shop.DAL.RepoSQL.dll
+C:\Users\EDita\source\repos\ShopOnline-new arch branch\ShopOnline\src\DAL\Shop.DAL.RepoSQL\obj\Debug\net6.0\Shop.DAL.RepoSQL.pdb

@@ -1,0 +1,30 @@
+C:\Users\EDita\source\repos\ShopOnline\Shop.Core.DomainEntities\bin\Debug\net6.0\Shop.Core.DomainEntities.deps.json
+C:\Users\EDita\source\repos\ShopOnline\Shop.Core.DomainEntities\bin\Debug\net6.0\Shop.Core.DomainEntities.dll
+C:\Users\EDita\source\repos\ShopOnline\Shop.Core.DomainEntities\bin\Debug\net6.0\ref\Shop.Core.DomainEntities.dll
+C:\Users\EDita\source\repos\ShopOnline\Shop.Core.DomainEntities\bin\Debug\net6.0\Shop.Core.DomainEntities.pdb
+C:\Users\EDita\source\repos\ShopOnline\Shop.Core.DomainEntities\bin\Debug\net6.0\Shop.Core.RepositoriesInterface.dll
+C:\Users\EDita\source\repos\ShopOnline\Shop.Core.DomainEntities\bin\Debug\net6.0\Shop.Core.RepositoriesInterface.pdb
+C:\Users\EDita\source\repos\ShopOnline\Shop.Core.DomainEntities\obj\Debug\net6.0\Shop.Core.DomainEntities.csproj.AssemblyReference.cache
+C:\Users\EDita\source\repos\ShopOnline\Shop.Core.DomainEntities\obj\Debug\net6.0\Shop.Core.DomainEntities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EDita\source\repos\ShopOnline\Shop.Core.DomainEntities\obj\Debug\net6.0\Shop.Core.DomainEntities.AssemblyInfoInputs.cache
+C:\Users\EDita\source\repos\ShopOnline\Shop.Core.DomainEntities\obj\Debug\net6.0\Shop.Core.DomainEntities.AssemblyInfo.cs
+C:\Users\EDita\source\repos\ShopOnline\Shop.Core.DomainEntities\obj\Debug\net6.0\Shop.Core.DomainEntities.csproj.CoreCompileInputs.cache
+C:\Users\EDita\source\repos\ShopOnline\Shop.Core.DomainEntities\obj\Debug\net6.0\Shop.Core.DomainEntities.csproj.CopyComplete
+C:\Users\EDita\source\repos\ShopOnline\Shop.Core.DomainEntities\obj\Debug\net6.0\Shop.Core.DomainEntities.dll
+C:\Users\EDita\source\repos\ShopOnline\Shop.Core.DomainEntities\obj\Debug\net6.0\ref\Shop.Core.DomainEntities.dll
+C:\Users\EDita\source\repos\ShopOnline\Shop.Core.DomainEntities\obj\Debug\net6.0\Shop.Core.DomainEntities.pdb
+C:\Users\EDita\source\repos\ShopOnline-new arch branch\ShopOnline\src\Core\Shop.Core.DomainEntities\bin\Debug\net6.0\Shop.Core.DomainEntities.deps.json
+C:\Users\EDita\source\repos\ShopOnline-new arch branch\ShopOnline\src\Core\Shop.Core.DomainEntities\bin\Debug\net6.0\Shop.Core.DomainEntities.dll
+C:\Users\EDita\source\repos\ShopOnline-new arch branch\ShopOnline\src\Core\Shop.Core.DomainEntities\bin\Debug\net6.0\ref\Shop.Core.DomainEntities.dll
+C:\Users\EDita\source\repos\ShopOnline-new arch branch\ShopOnline\src\Core\Shop.Core.DomainEntities\bin\Debug\net6.0\Shop.Core.DomainEntities.pdb
+C:\Users\EDita\source\repos\ShopOnline-new arch branch\ShopOnline\src\Core\Shop.Core.DomainEntities\bin\Debug\net6.0\Shop.Core.RepositoriesInterface.dll
+C:\Users\EDita\source\repos\ShopOnline-new arch branch\ShopOnline\src\Core\Shop.Core.DomainEntities\bin\Debug\net6.0\Shop.Core.RepositoriesInterface.pdb
+C:\Users\EDita\source\repos\ShopOnline-new arch branch\ShopOnline\src\Core\Shop.Core.DomainEntities\obj\Debug\net6.0\Shop.Core.DomainEntities.csproj.AssemblyReference.cache
+C:\Users\EDita\source\repos\ShopOnline-new arch branch\ShopOnline\src\Core\Shop.Core.DomainEntities\obj\Debug\net6.0\Shop.Core.DomainEntities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EDita\source\repos\ShopOnline-new arch branch\ShopOnline\src\Core\Shop.Core.DomainEntities\obj\Debug\net6.0\Shop.Core.DomainEntities.AssemblyInfoInputs.cache
+C:\Users\EDita\source\repos\ShopOnline-new arch branch\ShopOnline\src\Core\Shop.Core.DomainEntities\obj\Debug\net6.0\Shop.Core.DomainEntities.AssemblyInfo.cs
+C:\Users\EDita\source\repos\ShopOnline-new arch branch\ShopOnline\src\Core\Shop.Core.DomainEntities\obj\Debug\net6.0\Shop.Core.DomainEntities.csproj.CoreCompileInputs.cache
+C:\Users\EDita\source\repos\ShopOnline-new arch branch\ShopOnline\src\Core\Shop.Core.DomainEntities\obj\Debug\net6.0\Shop.Core.DomainEntities.csproj.CopyComplete
+C:\Users\EDita\source\repos\ShopOnline-new arch branch\ShopOnline\src\Core\Shop.Core.DomainEntities\obj\Debug\net6.0\Shop.Core.DomainEntities.dll
+C:\Users\EDita\source\repos\ShopOnline-new arch branch\ShopOnline\src\Core\Shop.Core.DomainEntities\obj\Debug\net6.0\ref\Shop.Core.DomainEntities.dll
+C:\Users\EDita\source\repos\ShopOnline-new arch branch\ShopOnline\src\Core\Shop.Core.DomainEntities\obj\Debug\net6.0\Shop.Core.DomainEntities.pdb

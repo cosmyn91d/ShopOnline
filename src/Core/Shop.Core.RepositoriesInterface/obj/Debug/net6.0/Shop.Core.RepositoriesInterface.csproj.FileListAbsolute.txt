@@ -1,0 +1,23 @@
+C:\Users\EDita\source\repos\ShopOnline\Shop.Core.RepositoriesInterface\bin\Debug\net6.0\Shop.Core.RepositoriesInterface.deps.json
+C:\Users\EDita\source\repos\ShopOnline\Shop.Core.RepositoriesInterface\bin\Debug\net6.0\Shop.Core.RepositoriesInterface.dll
+C:\Users\EDita\source\repos\ShopOnline\Shop.Core.RepositoriesInterface\bin\Debug\net6.0\ref\Shop.Core.RepositoriesInterface.dll
+C:\Users\EDita\source\repos\ShopOnline\Shop.Core.RepositoriesInterface\bin\Debug\net6.0\Shop.Core.RepositoriesInterface.pdb
+C:\Users\EDita\source\repos\ShopOnline\Shop.Core.RepositoriesInterface\obj\Debug\net6.0\Shop.Core.RepositoriesInterface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EDita\source\repos\ShopOnline\Shop.Core.RepositoriesInterface\obj\Debug\net6.0\Shop.Core.RepositoriesInterface.AssemblyInfoInputs.cache
+C:\Users\EDita\source\repos\ShopOnline\Shop.Core.RepositoriesInterface\obj\Debug\net6.0\Shop.Core.RepositoriesInterface.AssemblyInfo.cs
+C:\Users\EDita\source\repos\ShopOnline\Shop.Core.RepositoriesInterface\obj\Debug\net6.0\Shop.Core.RepositoriesInterface.csproj.CoreCompileInputs.cache
+C:\Users\EDita\source\repos\ShopOnline\Shop.Core.RepositoriesInterface\obj\Debug\net6.0\Shop.Core.RepositoriesInterface.dll
+C:\Users\EDita\source\repos\ShopOnline\Shop.Core.RepositoriesInterface\obj\Debug\net6.0\ref\Shop.Core.RepositoriesInterface.dll
+C:\Users\EDita\source\repos\ShopOnline\Shop.Core.RepositoriesInterface\obj\Debug\net6.0\Shop.Core.RepositoriesInterface.pdb
+C:\Users\EDita\source\repos\ShopOnline-new arch branch\ShopOnline\src\Core\Shop.Core.RepositoriesInterface\bin\Debug\net6.0\Shop.Core.RepositoriesInterface.deps.json
+C:\Users\EDita\source\repos\ShopOnline-new arch branch\ShopOnline\src\Core\Shop.Core.RepositoriesInterface\bin\Debug\net6.0\Shop.Core.RepositoriesInterface.dll
+C:\Users\EDita\source\repos\ShopOnline-new arch branch\ShopOnline\src\Core\Shop.Core.RepositoriesInterface\bin\Debug\net6.0\ref\Shop.Core.RepositoriesInterface.dll
+C:\Users\EDita\source\repos\ShopOnline-new arch branch\ShopOnline\src\Core\Shop.Core.RepositoriesInterface\bin\Debug\net6.0\Shop.Core.RepositoriesInterface.pdb
+C:\Users\EDita\source\repos\ShopOnline-new arch branch\ShopOnline\src\Core\Shop.Core.RepositoriesInterface\obj\Debug\net6.0\Shop.Core.RepositoriesInterface.csproj.AssemblyReference.cache
+C:\Users\EDita\source\repos\ShopOnline-new arch branch\ShopOnline\src\Core\Shop.Core.RepositoriesInterface\obj\Debug\net6.0\Shop.Core.RepositoriesInterface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EDita\source\repos\ShopOnline-new arch branch\ShopOnline\src\Core\Shop.Core.RepositoriesInterface\obj\Debug\net6.0\Shop.Core.RepositoriesInterface.AssemblyInfoInputs.cache
+C:\Users\EDita\source\repos\ShopOnline-new arch branch\ShopOnline\src\Core\Shop.Core.RepositoriesInterface\obj\Debug\net6.0\Shop.Core.RepositoriesInterface.AssemblyInfo.cs
+C:\Users\EDita\source\repos\ShopOnline-new arch branch\ShopOnline\src\Core\Shop.Core.RepositoriesInterface\obj\Debug\net6.0\Shop.Core.RepositoriesInterface.csproj.CoreCompileInputs.cache
+C:\Users\EDita\source\repos\ShopOnline-new arch branch\ShopOnline\src\Core\Shop.Core.RepositoriesInterface\obj\Debug\net6.0\Shop.Core.RepositoriesInterface.dll
+C:\Users\EDita\source\repos\ShopOnline-new arch branch\ShopOnline\src\Core\Shop.Core.RepositoriesInterface\obj\Debug\net6.0\ref\Shop.Core.RepositoriesInterface.dll
+C:\Users\EDita\source\repos\ShopOnline-new arch branch\ShopOnline\src\Core\Shop.Core.RepositoriesInterface\obj\Debug\net6.0\Shop.Core.RepositoriesInterface.pdb
