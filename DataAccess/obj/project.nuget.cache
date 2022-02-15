@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NqCXkLFiDVoHVhVDWKGkL6g5St79f6Ef8sL1Rq9J9tlS+SSle0EV1s2tYFdjZlxYbN9hUb/aZgETPXynCptRIQ==",
+  "dgSpecHash": "4/ejw443WTLLHKbtG16aSlx9/7u7mp/Wj0462G5AM8bo0wBZVkwiulx0VY0O/orTOXWQyrnSZ2z4VunR89603w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\EDita\\source\\repos\\ShopOnline\\DataAccess\\DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\ASauchea\\Projects\\ShopOnline\\DataAccess\\Shop.DAL.RepoSQL.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

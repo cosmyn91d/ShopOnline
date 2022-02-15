@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fP7GXymGKnaPNSI+D52zG6pvZAzKop8VRfvI/H36GLQzQwZ5rqJIJCbwQXOKtDAzvHa9jA51JgUCHmRLNXgizg==",
+  "dgSpecHash": "ByOUV9066xdu1GmtI5UJ32mdULLrr1Eq7dmr78l5hJt++5B//k0zTxdfDx9E7YGZDZsJYtMUPHKUrHFBASof6A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\EDita\\source\\repos\\ShopOnline\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\Users\\ASauchea\\Projects\\ShopOnline\\Entities\\Shop.Core.Entities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
