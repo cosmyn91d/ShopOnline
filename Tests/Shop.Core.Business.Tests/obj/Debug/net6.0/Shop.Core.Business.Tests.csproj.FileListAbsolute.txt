@@ -1,0 +1,11 @@
+C:\Users\ASauchea\Projects\ShopOnline\Tests\Shop.Core.Business.Tests\bin\Debug\net6.0\Shop.Core.Business.Tests.deps.json
+C:\Users\ASauchea\Projects\ShopOnline\Tests\Shop.Core.Business.Tests\bin\Debug\net6.0\Shop.Core.Business.Tests.dll
+C:\Users\ASauchea\Projects\ShopOnline\Tests\Shop.Core.Business.Tests\bin\Debug\net6.0\ref\Shop.Core.Business.Tests.dll
+C:\Users\ASauchea\Projects\ShopOnline\Tests\Shop.Core.Business.Tests\bin\Debug\net6.0\Shop.Core.Business.Tests.pdb
+C:\Users\ASauchea\Projects\ShopOnline\Tests\Shop.Core.Business.Tests\obj\Debug\net6.0\Shop.Core.Business.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASauchea\Projects\ShopOnline\Tests\Shop.Core.Business.Tests\obj\Debug\net6.0\Shop.Core.Business.Tests.AssemblyInfoInputs.cache
+C:\Users\ASauchea\Projects\ShopOnline\Tests\Shop.Core.Business.Tests\obj\Debug\net6.0\Shop.Core.Business.Tests.AssemblyInfo.cs
+C:\Users\ASauchea\Projects\ShopOnline\Tests\Shop.Core.Business.Tests\obj\Debug\net6.0\Shop.Core.Business.Tests.csproj.CoreCompileInputs.cache
+C:\Users\ASauchea\Projects\ShopOnline\Tests\Shop.Core.Business.Tests\obj\Debug\net6.0\Shop.Core.Business.Tests.dll
+C:\Users\ASauchea\Projects\ShopOnline\Tests\Shop.Core.Business.Tests\obj\Debug\net6.0\ref\Shop.Core.Business.Tests.dll
+C:\Users\ASauchea\Projects\ShopOnline\Tests\Shop.Core.Business.Tests\obj\Debug\net6.0\Shop.Core.Business.Tests.pdb
