@@ -21,7 +21,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{3729A2C6-A633-
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F7A7CAE4-DCCC-4481-A4B5-89D2AE2C0A5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.Core.Business.Tests", "Tests\Shop.Core.Business.Tests\Shop.Core.Business.Tests.csproj", "{3572D9D5-4FDC-456A-9B65-815883A1A35A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.Core.Business.Tests", "src\Tests\Shop.Core.Business.Tests\Shop.Core.Business.Tests.csproj", "{3572D9D5-4FDC-456A-9B65-815883A1A35A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,0 +1,14 @@
+Thumbs.db
+# Applications
+*.exe
+*.war
+obj
+bin
+*.suo
+*.user
+*.sdf
+*.dbmdl
+*.pdb
+.vs
+*.refactorlog
+*.jfm
