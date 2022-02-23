@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopOnline", "src\UI\ShopOnline\Shop.UI.ShopOnline.csproj", "{B096A02D-2E84-449B-B29D-5D71030EA577}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shop.UI.ShopOnline", "src\UI\ShopOnline\Shop.UI.ShopOnline.csproj", "{B096A02D-2E84-449B-B29D-5D71030EA577}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{BBBFFF72-1496-4CC8-B2E1-F98171702176}"
 EndProject
@@ -21,7 +21,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{3729A2C6-A633-
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F7A7CAE4-DCCC-4481-A4B5-89D2AE2C0A5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.Core.Business.Tests", "Tests\Shop.Core.Business.Tests\Shop.Core.Business.Tests.csproj", "{3572D9D5-4FDC-456A-9B65-815883A1A35A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shop.Core.Business.Tests", "Tests\Shop.Core.Business.Tests\Shop.Core.Business.Tests.csproj", "{3572D9D5-4FDC-456A-9B65-815883A1A35A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DBScripts", "DBScripts", "{6687C0B7-A0ED-4A25-9080-DF798F301F19}"
+	ProjectSection(SolutionItems) = preProject
+		DBScripts\CreateAttachmentTable.sql = DBScripts\CreateAttachmentTable.sql
+		DBScripts\CreateCategoryTable.sql = DBScripts\CreateCategoryTable.sql
+		DBScripts\CreateCustomerTable.sql = DBScripts\CreateCustomerTable.sql
+		DBScripts\CreateDiscountTables.sql = DBScripts\CreateDiscountTables.sql
+		DBScripts\CreateProductTables.sql = DBScripts\CreateProductTables.sql
+		DBScripts\CreateShoppingCartTables.sql = DBScripts\CreateShoppingCartTables.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
