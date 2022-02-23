@@ -2,14 +2,13 @@
 
 namespace Shop.Core.Business.Interfaces;
 
-    public interface IProductService
-    {
-        public Product GetProductById(int id);
+public interface IProductService
+{
+    public Product GetProductById(int id);
+    public IEnumerable<Product> GetAllProducts();
+    public bool AddProduct(Product productModel);
+    public bool EditProduct(Product productModel);
+    public bool DeleteProduct(int id);
 
-        public List<Product> GetAllProducts();
-        public void AddProduct(Product productModel);
-        public void EditProduct(int id, Product productModel);
-        public void DeleteProduct(int id);
-
-    }
+}
 
