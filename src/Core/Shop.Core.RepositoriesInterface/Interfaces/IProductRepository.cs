@@ -8,6 +8,6 @@ public interface IProductRepository
     public IEnumerable<Product> GetAllProducts();
     public bool AddProduct(Product productModel);
     public bool EditProduct(Product productModel);
-    public bool DeleteProduct(Product product);
+    public bool DeleteProduct(int id);
     public void SaveSchanges();
 }
