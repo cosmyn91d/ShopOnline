@@ -3,6 +3,6 @@ CREATE TABLE IF NOT EXISTS "Category" (
 	"CategoryParentId"	INTEGER,
 	"Name"	TEXT,
 	"IsDeleted"	INTEGER,
-	PRIMARY KEY("Id"),
+	PRIMARY KEY("Id" AUTOINCREMENT),
 	FOREIGN KEY("CategoryParentId") REFERENCES "Category"("Id")
 );
