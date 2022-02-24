@@ -13,6 +13,5 @@ public class Product
     public DateTime ModifyTime { get; set; }
     public bool IsDisabled { get; set; }
     public bool IsDeleted { get; set; }
-    public ICollection<int> Discounts { get; set; }
     public ICollection<Attachment> Attachments { get; set; } = new List<Attachment>();
 }
