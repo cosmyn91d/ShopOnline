@@ -6,6 +6,7 @@ CREATE TABLE IF NOT EXISTS "Product" (
 	"CategoryId"	INTEGER,
 	"Price"	REAL,
 	"Stock"	INTEGER,
+	"IsDisabled"	INTEGER,
 	"IsDeleted"	INTEGER,
 	"CreateTime"	TEXT,
 	"ModifyTime"	TEXT,

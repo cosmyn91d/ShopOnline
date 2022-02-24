@@ -12,3 +12,4 @@ bin
 .vs
 *.refactorlog
 *.jfm
+*.db
