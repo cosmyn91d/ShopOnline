@@ -9,6 +9,5 @@ public interface IProductRepository
     public IEnumerable<Product> GetAllProducts();
     public void AddProduct(Product productModel);
     public void EditProduct(Product productModel);
-    public void DeleteProduct(int id);
     public void SaveSchanges();
 }

@@ -7,8 +7,8 @@ public interface IProductService
 {
     public Product GetProductById(int id);
     public IEnumerable<Product> GetAllProducts();
-    public bool AddProduct(ProductModel productModel);
-    public bool EditProduct(Product product);
+    public bool AddProduct(ProductAddModel productModel);
+    public bool EditProduct(ProductEditModel product);
     public bool DeleteProduct(int id);
 
 }

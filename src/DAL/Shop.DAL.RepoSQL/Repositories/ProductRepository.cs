@@ -27,10 +27,6 @@ public class ProductRepository : IProductRepository
          _dbContext.Product.Add(product);
     }
 
-    public void DeleteProduct(int id)
-    {
-        throw new NotImplementedException();
-    }
 
     public void EditProduct(Product productModel)
     {

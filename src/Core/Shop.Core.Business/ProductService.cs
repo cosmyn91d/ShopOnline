@@ -23,7 +23,7 @@ public class ProductService : IProductService
         return product;
     }
 
-    public bool AddProduct(ProductModel productModel)
+    public bool AddProduct(ProductAddModel productModel)
     {
         var hasProduct = _productRepository.GetAllProducts().FirstOrDefault(x => x.Name == productModel.Name);
 
@@ -38,8 +38,6 @@ public class ProductService : IProductService
             Description = productModel.Description,
             Price = productModel.Price,
             Stock = productModel.Stock,
-            IsDeleted = false,
-            IsDisabled = false,
             CreateTime = DateTime.UtcNow,
             ModifyTime = DateTime.UtcNow
         };
@@ -54,10 +52,26 @@ public class ProductService : IProductService
 
     public bool DeleteProduct(int id)
     {
-        throw new NotImplementedException();
+        var hasProduct = _productRepository.GetProductById(id);
+
+        if (hasProduct is null)
+        {
+            throw new ArgumentException($"Product with id {id} does not exists!");
+        }
+
+        if (hasProduct.IsDeleted == true) {
+            throw new Exception($"Product with id {id} is already deleted!");
+        }
+
+        hasProduct.IsDeleted = true;
+
+        _productRepository.EditProduct(hasProduct);
+        _productRepository.SaveSchanges();
+
+        return true;
     }
 
-    public bool EditProduct(Product product)
+    public bool EditProduct(ProductEditModel product)
     {
         var hasProduct = _productRepository.GetProductById(product.Id);
 
@@ -66,7 +80,17 @@ public class ProductService : IProductService
             throw new ArgumentException($"Product with id {product.Id} does not exists!");
         }
 
-        _productRepository.EditProduct(product);
+        hasProduct.Name = product.Name;
+        hasProduct.Code = product.Code;
+        hasProduct.CategoryId = product.CategoryId;
+        hasProduct.Description = product.Description;
+        hasProduct.Price = product.Price;
+        hasProduct.Stock = product.Stock;
+        hasProduct.IsDeleted = product.IsDeleted;
+        hasProduct.IsDisabled = product.IsDisabled;
+        hasProduct.ModifyTime = DateTime.UtcNow;
+
+        _productRepository.EditProduct(hasProduct);
         _productRepository.SaveSchanges();
 
         return true;

@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Shop.Core.Business;
 using Shop.Core.Business.Interfaces;
+using Shop.Core.DomainEntities;
 using Shop.Core.DomainEntities.Models;
 using Shop.Core.RepositoriesInterface.Interfaces;
 using Shop.DAL.RepoSQL;
@@ -39,19 +40,47 @@ app.MapGet("/products/{id}", ([FromServices] IProductService productService, int
     return product != null ? Results.Ok(product) : Results.NotFound();
 });
 
-app.MapPost("/products/", ([FromServices] IProductService _productService, [FromBody]ProductModel productModel) =>
+app.MapPost("/products/addProduct", ([FromServices] IProductService _productService, [FromBody]ProductAddModel productModel) =>
 {
     try
     {
         _productService.AddProduct(productModel);
-        return Results.Ok(productModel);
+        return Results.Ok();
     }
     catch (ArgumentException)
     {
 
         return Results.BadRequest();
     }
-    
+});
+
+
+app.MapPut("/products/editProduct", ([FromServices] IProductService _productService, [FromBody] ProductEditModel product) =>
+{
+    try
+    {
+        _productService.EditProduct(product);
+        return Results.Ok();
+    }
+    catch (ArgumentException)
+    {
+
+        return Results.BadRequest();
+    }
+});
+
+app.MapPut("/products/deleteProduct", ([FromServices] IProductService _productService, int productId) =>
+{
+    try
+    {
+        _productService.DeleteProduct(productId);
+        return Results.Ok();
+    }
+    catch (ArgumentException)
+    {
+
+        return Results.BadRequest();
+    }
 });
 
 app.Run();
