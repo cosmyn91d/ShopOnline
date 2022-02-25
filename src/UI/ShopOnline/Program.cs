@@ -32,5 +32,11 @@ app.MapGet("/products", ([FromServices] IProductService productService) =>
      return productService.GetAllProducts();
  });
 
+app.MapGet("/products/{id}", ([FromServices] IProductService productService, int id) =>
+{
+    var product = productService.GetProductById(id);
+    return product != null ? Results.Ok(product) : Results.NotFound();
+});
+
 app.Run();
 

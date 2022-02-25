@@ -11,6 +11,16 @@ public class ProductRepository : IProductRepository
     {
         _dbContext = dbContext;
     }
+    public IEnumerable<Product> GetAllProducts()
+    {
+        return _dbContext.Product.ToList();
+    }
+
+    public Product GetProductById(int id)
+    {
+        return _dbContext.Product.FirstOrDefault(x => x.Id == id);
+    }
+
     public bool AddProduct(Product productModel)
     {
         throw new NotImplementedException();
@@ -26,18 +36,8 @@ public class ProductRepository : IProductRepository
         throw new NotImplementedException();
     }
 
-    public IEnumerable<Product> GetAllProducts()
-    {
-        return _dbContext.Products.ToList();
-    }
-
-    public Product GetProductById(int id)
-    {
-        throw new NotImplementedException();
-    }
-
     public void SaveSchanges()
     {
-        throw new NotImplementedException();
+        _dbContext.SaveChanges();
     }
 }

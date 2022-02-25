@@ -18,7 +18,8 @@ public class ProductService : IProductService
 
     public Product GetProductById(int id)
     {
-        throw new NotImplementedException();
+        var product = _productRepository.GetProductById(id);
+        return product;
     }
 
     public bool AddProduct(Product productModel)
