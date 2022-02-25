@@ -1,4 +1,5 @@
 ﻿using Shop.Core.DomainEntities;
+using Shop.Core.DomainEntities.Models;
 using Shop.Core.RepositoriesInterface.Interfaces;
 
 namespace Shop.DAL.RepoSQL;
@@ -11,33 +12,33 @@ public class ProductRepository : IProductRepository
     {
         _dbContext = dbContext;
     }
-    public bool AddProduct(Product productModel)
-    {
-        throw new NotImplementedException();
-    }
-
-    public bool DeleteProduct(int id)
-    {
-        throw new NotImplementedException();
-    }
-
-    public bool EditProduct(Product productModel)
-    {
-        throw new NotImplementedException();
-    }
-
     public IEnumerable<Product> GetAllProducts()
     {
-        return _dbContext.Products.ToList();
+        return _dbContext.Product.ToList();
     }
 
     public Product GetProductById(int id)
+    {
+        return _dbContext.Product.FirstOrDefault(x => x.Id == id);
+    }
+
+    public void AddProduct(Product product)
+    {
+         _dbContext.Product.Add(product);
+    }
+
+    public void DeleteProduct(int id)
+    {
+        throw new NotImplementedException();
+    }
+
+    public void EditProduct(Product productModel)
     {
         throw new NotImplementedException();
     }
 
     public void SaveSchanges()
     {
-        throw new NotImplementedException();
+        _dbContext.SaveChanges();
     }
 }
