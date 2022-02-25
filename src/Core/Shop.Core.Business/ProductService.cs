@@ -57,8 +57,18 @@ public class ProductService : IProductService
         throw new NotImplementedException();
     }
 
-    public bool EditProduct(Product productModel)
+    public bool EditProduct(Product product)
     {
-        throw new NotImplementedException();
+        var hasProduct = _productRepository.GetProductById(product.Id);
+
+        if (hasProduct is null)
+        {
+            throw new ArgumentException($"Product with id {product.Id} does not exists!");
+        }
+
+        _productRepository.EditProduct(product);
+        _productRepository.SaveSchanges();
+
+        return true;
     }
 }

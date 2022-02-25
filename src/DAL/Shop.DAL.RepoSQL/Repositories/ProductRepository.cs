@@ -34,7 +34,7 @@ public class ProductRepository : IProductRepository
 
     public void EditProduct(Product productModel)
     {
-        throw new NotImplementedException();
+        _dbContext.Product.Update(productModel);
     }
 
     public void SaveSchanges()
