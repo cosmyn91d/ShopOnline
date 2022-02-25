@@ -1,40 +1,50 @@
-﻿using Shop.Core.DomainEntities;
-using Shop.Core.DomainEntities.Models;
-using Shop.Core.RepositoriesInterface.Interfaces;
+﻿using Microsoft.EntityFrameworkCore;
+using Shop.Core.DomainEntities;
+using Shop.Core.RepositoriesInterface;
 
 namespace Shop.DAL.RepoSQL;
 
-
-public class ProductRepository : IProductRepository
+public abstract class DALRepository<T>: IRepository<T> where T : EntityBase
 {
-    private readonly ShopOnlineDbContext _dbContext;
-    public ProductRepository(ShopOnlineDbContext dbContext)
+    protected abstract DbSet<T> dbSet { get; }
+
+    protected readonly ShopOnlineDbContext _dbContext;
+
+    public DALRepository(ShopOnlineDbContext dbContext)
     {
         _dbContext = dbContext;
     }
-    public IEnumerable<Product> GetAllProducts()
+    public IEnumerable<T> GetAll()
     {
-        return _dbContext.Product.ToList();
+        return dbSet.ToList();
     }
 
-    public Product GetProductById(int id)
+    public T? GetById(int id)
     {
-        return _dbContext.Product.FirstOrDefault(x => x.Id == id);
+        return dbSet.FirstOrDefault(x => x.Id == id);
     }
 
-    public void AddProduct(Product product)
+    public int Add(T entity)
     {
-         _dbContext.Product.Add(product);
+        dbSet.Add(entity);
+        return _dbContext.SaveChanges();
     }
 
-
-    public void EditProduct(Product productModel)
+    public int Update(T entity)
     {
-        _dbContext.Product.Update(productModel);
+        dbSet.Update(entity);
+        return _dbContext.SaveChanges();
     }
+}
 
-    public void SaveSchanges()
+public class ProductRepository : DALRepository<Product>, IProductRepository
+{
+    public ProductRepository(ShopOnlineDbContext dbContext) : base(dbContext) { }
+
+    protected override DbSet<Product> dbSet => _dbContext.Product;
+
+    public Product? GetProductByName(string name)
     {
-        _dbContext.SaveChanges();
+        return dbSet.FirstOrDefault(x => x.Name == name);
     }
 }

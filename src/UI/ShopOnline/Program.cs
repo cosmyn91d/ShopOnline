@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Shop.Core.Business;
-using Shop.Core.Business.Interfaces;
+using Shop.Core.Business.Services;
 using Shop.Core.DomainEntities;
 using Shop.Core.DomainEntities.Models;
 using Shop.Core.RepositoriesInterface.Interfaces;

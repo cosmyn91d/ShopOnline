@@ -39,6 +39,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DBScripts", "DBScripts", "{
 		DBScripts\CreateShoppingCartTables.sql = DBScripts\CreateShoppingCartTables.sql
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.UI.Interface", "src\UI\Shop.UI.Interface\Shop.UI.Interface.csproj", "{2BFCB22C-E7B3-41D3-B5F1-2384ADD77373}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{3572D9D5-4FDC-456A-9B65-815883A1A35A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3572D9D5-4FDC-456A-9B65-815883A1A35A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3572D9D5-4FDC-456A-9B65-815883A1A35A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BFCB22C-E7B3-41D3-B5F1-2384ADD77373}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BFCB22C-E7B3-41D3-B5F1-2384ADD77373}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BFCB22C-E7B3-41D3-B5F1-2384ADD77373}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BFCB22C-E7B3-41D3-B5F1-2384ADD77373}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -80,6 +86,7 @@ Global
 		{051BED45-74F2-452C-8F9A-D284CB8E844A} = {BBBFFF72-1496-4CC8-B2E1-F98171702176}
 		{AB5B0A0D-B6B5-47F3-86C5-11AA1AEDC075} = {33CAD6DA-C9B0-4B3B-A7F9-1CF7EA4A18E0}
 		{3572D9D5-4FDC-456A-9B65-815883A1A35A} = {F7A7CAE4-DCCC-4481-A4B5-89D2AE2C0A5A}
+		{2BFCB22C-E7B3-41D3-B5F1-2384ADD77373} = {3729A2C6-A633-4753-B26B-E4C0C4551C51}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D4593386-6F55-41F8-8F5D-BD6CC5FBB9BB}
